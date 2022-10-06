@@ -1,7 +1,7 @@
 nome = input("Digite seu nome ")
 saldo = 3000
 
-Opções = int(input("Informe uma opção: [1] Saque\n [2] Extrato \n [3] Investimentos\n [4] Depositar:"))
+Opções = int(input("Informe uma opção: [1] Saque\n [2] Extrato \n [3] Investimentos\n [4] Depositar\n [5] Exit"))
 if Opções == 1:
     valor = float(input("Informe o valor que deseja sacar "))
 
